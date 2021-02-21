@@ -1,24 +1,80 @@
 body {
     background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+    font-family: 'Spartan', sans-serif;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .attribution {
-  text-align: center;
-  font-size: 11px;
+    text-align: center;
+    font-size: 11px;
 }
 
 .attribution a {
-  color: #3e52a3;
+    color: #3e52a3;
 }
 
 /* Main Section */
+.main {
+    padding: 7% 6%;
+}
+
 .main-text {
     color: #502050;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 2rem;
+    padding: 3% 4% 2%;
 }
 
 .main-subtext {
     color: #937b92;
     font-size: 1rem;
+    font-weight: 300;
+}
+
+/* Reviews Section */
+.reviews {
+    background-color: #f7f2f7;
+    padding: 2%;
+}
+
+.reviews-nopadding {
+    padding: 0;
+}
+
+.reviews-text {
+    color: #502050;
+    font-weight: 700;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #502050;
+}
+
+.testimonials-image {
+    width: 100%;
+}
+
+.testimonials-name {
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.testimonials-subname {
+    color: #ee68a4;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 0.7;
+}
+
+.testimonials-text {
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin: 0;
+    line-height: 2;
 }
