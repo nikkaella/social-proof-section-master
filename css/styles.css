@@ -1,7 +1,24 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
+body {
+    background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
 }
+
+.attribution {
+  text-align: center;
+  font-size: 11px;
+}
+
 .attribution a {
   color: #3e52a3;
+}
+
+/* Main Section */
+.main-text {
+    color: #502050;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.main-subtext {
+    color: #937b92;
+    font-size: 1rem;
 }
