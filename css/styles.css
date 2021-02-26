@@ -134,14 +134,14 @@ ul {
     }
 
     .testimonials-desktop-start {
-        align-self: flex-start;
+        /* align-self: flex-start; */
     }
 
     .testimonials-desktop-center {
-        align-self: center;
+        /* align-self: center; */
     }
 
     .testimonials-desktop-end {
-        align-self: flex-end;
+        /* align-self: flex-end; */
     }
 }
