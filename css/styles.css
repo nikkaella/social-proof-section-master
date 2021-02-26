@@ -60,7 +60,7 @@ ul {
 }
 
 .testimonials-image {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .testimonials-name {
@@ -114,18 +114,24 @@ ul {
     /* Reviews Section */
     .reviews {
         padding: 2% 15%;
+        justify-content: flex-start;
+    }
+
+    .reviews-stars{
+        margin: 2% 5%;
+    }
+
+    .reviews-text {
+        display: inline;
     }
 
     .reviews-desktop-start {
-        align-self: flex-start;
     }
 
     .reviews-desktop-center {
-        align-self: center;
     }
 
     .reviews-desktop-end {
-        align-self: flex-end;
     }
 
     /* Testimonials Section */
