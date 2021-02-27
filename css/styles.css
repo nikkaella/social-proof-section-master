@@ -1,5 +1,6 @@
 body {
     background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat, no-repeat;
     font-family: 'Spartan', sans-serif;
 }
 
@@ -17,8 +18,8 @@ ul {
 }
 
 .container-fluid {
-    padding: 10%;
-    height: 90vh;
+    padding: 5%;
+    height: 95vh;
 }
 
 /* Main Section */
@@ -53,6 +54,8 @@ ul {
     color: #502050;
     font-weight: 700;
 }
+
+
 
 /* Testimonials Section */
 .testimonials {
@@ -95,7 +98,7 @@ ul {
 }
 
 
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 768px) {
 
     /* Main Section */
     .main {
@@ -105,6 +108,7 @@ ul {
     .main-text {
         text-align: left;
         padding: 0;
+        font-size: 2rem;
     }
 
     .main-subtext {
@@ -114,7 +118,7 @@ ul {
     /* Reviews Section */
     .reviews {
         padding: 2% 15%;
-        justify-content: flex-start;
+        width: 80%;
     }
 
     .reviews-stars{
@@ -126,17 +130,21 @@ ul {
     }
 
     .reviews-desktop-start {
+        align-self: flex-start;
     }
-
+    
     .reviews-desktop-center {
+        align-self: center;
     }
-
+    
     .reviews-desktop-end {
+        align-self: flex-end;
     }
 
     /* Testimonials Section */
     .testimonials {
         margin: 1%;
+        height: 95%;
     }
 
     .testimonials-desktop-start {
